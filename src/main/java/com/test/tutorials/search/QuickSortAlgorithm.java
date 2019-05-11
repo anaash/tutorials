@@ -1,4 +1,4 @@
-package com.test.tutorials;
+package com.test.tutorials.search;
 
 import org.springframework.stereotype.Component;
 

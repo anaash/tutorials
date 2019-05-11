@@ -1,4 +1,4 @@
-package com.test.tutorials;
+package com.test.tutorials.search;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -7,11 +7,12 @@ import org.springframework.stereotype.Component;
 public class TernarySearch {
 
     @Autowired
-    SortAlgorithm sortAlgorithm;
+    public
+    SortAlgorithm quickSortAlgorithm;
 
     public int searchIndex (int [] data){
         // Sort Data
-        sortAlgorithm.sortData(data);
+        quickSortAlgorithm.sortData(data);
 
 
         // Do Search
