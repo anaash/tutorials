@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 public class TernarySearch {
 
     @Autowired
-    public
     SortAlgorithm quickSortAlgorithm;
 
     public int searchIndex (int [] data){
