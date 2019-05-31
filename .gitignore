@@ -7,11 +7,11 @@
 *~
 .#*
 .*.md.html
+.idea
 .DS_Store
 .classpath
 .factorypath
 .gradle
-.idea/*
 .metadata
 .project
 .recommenders
